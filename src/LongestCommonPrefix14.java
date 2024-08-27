@@ -4,12 +4,12 @@ public class LongestCommonPrefix14 {
     public static void main(String[] args) {
 
         String [] strs = {"flower","flow","flight"};
-        String ans=longestCommonPrefix(strs);
+        char ans=longestCommonPrefix(strs);
         System.out.println(ans);
 
 
     }
-    public static String longestCommonPrefix(String[] strs) {
+    public static char longestCommonPrefix(String[] strs) {
 
         HashMap<Character,Integer> map = new HashMap<>();
 
